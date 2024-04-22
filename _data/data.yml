@@ -8,27 +8,27 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Wesley Morris
+    tagline: PhD Student at Vanderbilt University
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
+    email: wesley.g.morris@gmail.com
+    phone: 
     timezone: America/Cancun Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: wesleygmorris.github.io #do not add http://
+    linkedin: wesley-morris-07ab631aa
+    xing: 
+    github: wesleygmorris
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: 
 
     languages:
       title: Languages
@@ -36,11 +36,8 @@ sidebar:
         - idiom: English
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: Manderin
+          level: Conversational
 
     interests:
       title: Interests
@@ -57,209 +54,197 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I spent fifteen years as a classroom teacher before returning
+      to complete my PhD at Peabody College at Vanderbilt University.
+      I use NLP tools such as transformer models in educational tools
+      and assessment, including predicting human ratings of text quality,
+      question and answer generation, and sequence classification. I am
+      also familiar with statistical techniques such as multi-level modeling,
+      structural equation modeling, and item response theory to examine 
+      rater effects in research and educational measurement. My research 
+      interest is in using deep learning techniques to analyze speech acoustics,
+      specifically in terms of prosody, phonology, and pragmatics of natural
+      speech. 
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: PhD in Psychology and Human Development
+        university: Vanderbilt University
+        time: 2022 - present
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
+          I work with Professor Scott Crossley in the LEAR Lab on iTELL, a
+          framework for automatically generating intelligent interactive
+          webapps from static texts. I am interested in and have completed
+          coursework (GPA: 3.9) in:
+            - Structural Equation Modeling
+            - Item Response Theory
+            - Multi-level Modeling
+            - Deep Learning
+            - Cognitive Science
+      - degree: MA in Applied Linguistics
+        university: Georgia State University
         time: 2007 - 2011
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Completed 36 credit-hours of coursework, 45 hours of observation and 
+          practice teaching under a master teacher, 90 hours of independent teaching, 
+          eight individual extra-curricular professional development experiences, 
+          and the development of a portfolio. Completed coursework in:
+            - Corpus Linguistics
+            - Second Language Acquisition
+            - Phonology
+            - Grammar/Syntax
 
 experiences:
-    title: Experiences
+    title: Research Experience
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: PhD Research Assistant
+        time: 2022 - Present
+        company: Vanderbilt University, Nashville TN
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Worked for The Learning Agency under guidance of Professor Scott Crossley 
+          on the Feedback Competition, a Kaggle competition to develop an AI essay 
+          annotation tool able to divide essays correctly and automatically into their 
+          discourse elements. Performed analysis on the corpus data using Python and R. 
+          Worked with the lab to develop iTELL, a framework for generating intelligent 
+          and interactive textbooks from expository texts provided by content creators.
+      - role: 21st Century World Track Lead for Tools Competition
+        time: 2022 - Present
+        company: The Learning Agency
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Worked for The Learning Agency helping to administer the Schmidt Futures funded 
+          Tools Competition, a grant competition to develop educational technologies in 
+          assessment and learning science as part of a graduate research assistantship at 
+          Vanderbilt University.
+      - role: Graduate Research Assistant
+        time: 2011 - 2013
+        company: Georgia State University, Atlanta GA
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
+          Worked under Professor Scott Crossley, helping him with data analysis, transcription, 
+          research, and essay rating according to analytic rubrics.
             - Bullet point
             - Bullet point
 
 certifications:
-      title: Certifications
+      title: Certifications and Awards
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+        - name: Grand Prize Winner, NAEP Math Automated Challenge
+          start: 2023
+          end: 2023
+          organization: NAEP
+          credentialurl: https://github.com/learlab/naep-math-challenge-2023
+          credentialname: NAEP
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+            Worked with a team to develop automated scoring models to predict
+            human scores of constructed responses provided by students explaining
+            their reasoning during the NAEP Math assessment
+        - name: Montessori Teaching Certificate
+          start: 2013
+          end: 2016
+          organization: Association Montessori Internationale
+          credentialid: 
+          credentialurl: https://montessori-ami.org
+          credentialname: AMI
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            Completed 9-month (3 summers) in-person Montessori teacher training for
+            elementary grades through the Association Montessori Internationale
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      I am involved in a number of NLP and Data Science projects in Peabody College at
+      Vanderbilt University and beyond.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: iTELL
+        link: "https://learlab.org/itellguide/about/about/"
+        tagline: "A framework for automatically generating intelligent, interactive webapps for adult learners."
 
-      - title: DevStudio
+      - title: MASCoT-CP
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "I am co-PI on a project to develop multimodal models for the classification of teacher classroom practices."
 
-      - title: Tempo
+      - title: Meta-cognitive Strategies
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "I am co-PI on a project to classify meta-cognitive strategies from student self-reports in natural language."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Published papers in journals and conference proceedings
+
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Formative Feedback on Student-Authored Summaries in Intelligent Textbooks using Large Language Models.
+        link: "https://link.springer.com/article/10.1007/s40593-024-00395-0"
+        authors: Morris, W., Crossley, S., Holmes, L., Ou, Chaohua, Dascalu, M., & McNamara, D.
+        conference: "Journal of Artificial Intelligence in Education. 2024"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Measuring second language proficiency using the English Language Learner Insight, Proficiency and Skills Evaluation (ELLIPSE) Corpus.
+        link: "https://www.jbe-platform.com/content/journals/10.1075/ijlcr.22026.cro"
+        authors: Crossley, S. A., Tian, Y., Baffour, P., Franklin, A., Kim, Y., Morris, W., Benner, B., Picou, A., & Boser, U.
+        conference: "International Journal of Learner Corpus Research. 2023"
+        
+      - title: Using Transformer Language Models to Validate Peer-Assigned Essay Scores in Massive Open Online Courses (MOOCs).
+        link: "https://dl.acm.org/doi/abs/10.1145/3576050.3576098?casa_token=HGbPPT8lBYEAAAAA:yDie5VNJNTYi6lsy4kS_t8FVZvn7FBJ09Jo4rtUBNUZtY0iqu5r_9NeWMJxabE-iJnRFDNjuxZoy"
+        authors: Morris, W., Crossley, S. A., Langdon, H., & Trumbore, A.
+        conference: Proceedings of the Thirteenth International Conference on Learning Analytics & Knowledge, Arlington Texas, March 13-17, 2023,
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Using Transformer Language Models to Provide Formative Feedback in Intelligent Textbooks."
+        link: "https://link.springer.com/chapter/10.1007/978-3-031-36336-8_75"
+        authors: Morris, W., Crossley, S., Holmes, L., Ou, C., McNamara, D., Dascalu, M.
+        conference: "Proceedings of the Twenty-fourth International Conference on Artificial Intelligence in Education (AIED), Tokyo, Japan, July 3–6, 2023."
+
+      - title: Deidentifying Student Writing with Rules and Transformers.
+        link: "https://link.springer.com/chapter/10.1007/978-3-031-36336-8_109"
+        authors: Holmes, L., Crossley, S., Morris, W., Sikka, H., & Trumbore, A.
+        conference: "Proceedings of the Twenty-fourth International Conference on Artificial Intelligence in Education (AIED), Tokyo, Japan, July 3–6, 2023."
+
+      - title: Formative Feedback on Student-Authored Summaries in Intelligent Textbooks using Large Language Models.
+        link: "https://link.springer.com/article/10.1007/s40593-024-00395-0"
+        authors: Morris, W., Crossley, S., Holmes, L., Ou, Chaohua, Dascalu, M., & McNamara, D.
+        conference: "Journal of Artificial Intelligence in Education. 2024"
+
+      - title: "iScore: Visual Analytics for Interpreting How Language Models Automatically Score Summaries."
+        link: "https://dl.acm.org/doi/abs/10.1145/3640543.3645142"
+        authors: Coscia, A., Holmes, L., Morris, W., Choi, J., Crossley, S., & Endert, A.
+        conference: "Proceedings of ACM Conference on Intelligent User Interfaces. 2024."
+
+
+
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: R
         level: 98%
 
-      - name: Angular
-        level: 98%
+      - name: JavaScript
+        level: 60%
 
       - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+        level: 30%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
