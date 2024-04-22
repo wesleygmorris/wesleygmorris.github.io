@@ -45,7 +45,7 @@ sidebar:
         - item: Climbing
           link:
 
-        - item: Snowboarding
+        - item: Taiji
           link:
 
         - item: Cooking
@@ -121,8 +121,6 @@ experiences:
         details: |
           Worked under Professor Scott Crossley, helping him with data analysis, transcription, 
           research, and essay rating according to analytic rubrics.
-            - Bullet point
-            - Bullet point
 
 certifications:
       title: Certifications and Awards
