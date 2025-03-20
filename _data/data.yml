@@ -103,11 +103,11 @@ experiences:
         time: 2022 - Present
         company: Vanderbilt University, Nashville TN
         details: |
-          Worked for The Learning Agency under guidance of Professor Scott Crossley 
-          on the Feedback Competition, a Kaggle competition to develop an AI essay 
+          Worked under guidance of Professor Scott Crossley on multiple projects including: 
+          - Worked on the Feedback Competition, a Kaggle competition to develop an AI essay 
           annotation tool able to divide essays correctly and automatically into their 
           discourse elements. Performed analysis on the corpus data using Python and R. 
-          Worked with the lab to develop iTELL, a framework for generating intelligent 
+          - Worked with the lab to develop [iTELL](https://demo.itell.ai), a framework for generating intelligent 
           and interactive textbooks from expository texts provided by content creators.
       - role: 21st Century World Track Lead for Tools Competition
         time: 2022 - Present
