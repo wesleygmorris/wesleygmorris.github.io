@@ -85,7 +85,7 @@ education:
             - Cognitive Science
       - degree: MA in Applied Linguistics
         university: Georgia State University
-        time: 2007 - 2011
+        time: 2009 - 2011
         details: |
           Completed 36 credit-hours of coursework, 45 hours of observation and 
           practice teaching under a master teacher, 90 hours of independent teaching, 
@@ -95,6 +95,10 @@ education:
             - Second Language Acquisition
             - Phonology
             - Grammar/Syntax
+      - degree: BA in Psychology
+        university: Charter Oak State College
+        time: 2005 - 2009
+
 
 experiences:
     title: Research Experience
