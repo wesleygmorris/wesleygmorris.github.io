@@ -45,7 +45,7 @@ sidebar:
         - item: Climbing
           link:
 
-        - item: Taiji
+        - item: Hiking
           link:
 
         - item: Cooking
@@ -54,14 +54,16 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
+      I am a statistician and data scientist who specializes in Natural Language Processing (NLP), with years of 
+      experience in training and deploying large language models in academia and industry.
       I spent fifteen years as a classroom teacher before returning
       to complete my PhD at Peabody College at Vanderbilt University.
-      I use NLP tools such as transformer models in educational tools
+      I use NLP tools, including traditional ML and transformer models in educational tools
       and assessment, including predicting human ratings of text quality,
       question and answer generation, and sequence classification. I am
-      also familiar with statistical techniques such as multi-level modeling,
-      structural equation modeling, and item response theory to examine 
-      rater effects in research and educational measurement. My research 
+      also interested in statistical techniques such as multi-level modeling,
+      structural equation modeling, item response theory, and many-facet Rasch measurement to examine 
+      rater effects in research and educational measurement. My secondary research 
       interest is in using deep learning techniques to analyze speech acoustics,
       specifically in terms of prosody, phonology, and pragmatics of natural
       speech. 
@@ -158,7 +160,7 @@ projects:
 
       - title: MASCoT-CP
         link: "#"
-        tagline: "I am co-PI on a project to develop multimodal models for the classification of teacher classroom practices."
+        tagline: "I am co-PI on a project to develop multimodal models for the classification of teacher classroom practices. This project is currently a finalist for a $150,000 grant from the Tools Competition"
 
       - title: Meta-cognitive Strategies
         link: "#"
@@ -224,6 +226,21 @@ publications:
         link: "https://dl.acm.org/doi/abs/10.1145/3640543.3645142"
         authors: Coscia, A., Holmes, L., Morris, W., Choi, J., Crossley, S., & Endert, A.
         conference: "Proceedings of ACM Conference on Intelligent User Interfaces. 2024."
+      
+      - title: "The english language learner insight, proficiency and skills evaluation (ellipse) corpus"
+        link: "https://doi.org/10.1075/ijlcr.22026.cro"
+        authors: Crossley, S., Tian, Y., Baffour, P., Franklin, A., Kim, Y., Morris, W., Benner, M., Boser, U.
+        conference: "International Journal of Learner Corpus Research 9(2). 2023."
+      
+      - title: "Automated scoring of constructed response items in math assessment using large language models"
+        link: "https://ceur-ws.org/Vol-3840/L3MNGET24_paper2.pdf"
+        authors: Morris, W., Holmes, L., Choi, J.S., Crossley, S.
+        conference: "International Journal on Educational Data Mining. 2024"
+
+      - title: "Plagiarism Detection Using Keystroke Logs"
+        link: "https://educationaldatamining.org/edm2024/proceedings/2024.EDM-short-papers.47/"
+        authors: Crossley, S., Tian, Y., Choi, J.S., Crossley, S.
+        conference: "International Journal on Educational Data Mining. 2024"
 
 
 
