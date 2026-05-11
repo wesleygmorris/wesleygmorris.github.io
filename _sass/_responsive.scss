@@ -47,6 +47,25 @@
       font-size: 20px;
     }
   }
+
+  .sidebar-nav {
+    padding: 15px 20px 10px;
+
+    .nav-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+
+      li {
+        margin-bottom: 0;
+      }
+
+      a {
+        padding: 8px 14px;
+        font-size: 13px;
+      }
+    }
+  }
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
