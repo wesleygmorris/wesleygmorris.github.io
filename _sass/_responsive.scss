@@ -26,6 +26,27 @@
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
+
+  .hero-section {
+    padding: 25px 20px;
+    border-radius: 8px;
+
+    .hero-title {
+      font-size: 32px;
+    }
+
+    .hero-subtitle {
+      font-size: 15px;
+    }
+
+    .hero-stats {
+      gap: 16px;
+    }
+
+    .hero-stat-number {
+      font-size: 20px;
+    }
+  }
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
