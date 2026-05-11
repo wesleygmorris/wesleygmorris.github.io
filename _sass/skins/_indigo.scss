@@ -1,10 +1,10 @@
-/* iTELL brand indigo theme */
-$theme-color: #4f46e5;
-$text-color: #0f172a;
-$text-color-secondary: #475569;
-$text-grey: #64748b;
-$divider: #e2e8f0;
-$lighter-grey: #cbd5e1;
-$darker-grey: #475569;
-$smoky-white: #f8fafc;
-$heart: #ef4444;
+/* Custom brand theme */
+$theme-color: #439ca0;
+$text-color: #121728;
+$text-color-secondary: #275e60;
+$text-grey: lighten(#121728, 45%);
+$divider: #e1e9fb;
+$lighter-grey: lighten(#121728, 65%);
+$darker-grey: lighten(#121728, 30%);
+$smoky-white: #f3f5f9;
+$heart: #e78733;
