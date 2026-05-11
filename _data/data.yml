@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Wesley Morris
-    tagline: PhD Student at Vanderbilt University
+    tagline: PhD Candidate in Cognition in Context at Vanderbilt University
     avatar: wes_headshot2.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: 
+    pdf: /assets/cv/WesleyMorrisCV.pdf 
 
     languages:
       title: Languages
@@ -54,19 +54,11 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a statistician and data scientist who specializes in Natural Language Processing (NLP), with years of 
-      experience in training and deploying large language models in academia and industry.
-      I spent fifteen years as a classroom teacher before returning
-      to complete my PhD at Peabody College at Vanderbilt University.
-      I use NLP tools, including traditional ML and transformer models in educational tools
-      and assessment, including predicting human ratings of text quality,
-      question and answer generation, and sequence classification. I am
-      also interested in statistical techniques such as multi-level modeling,
-      structural equation modeling, item response theory, and many-facet Rasch measurement to examine 
-      rater effects in research and educational measurement. My secondary research 
-      interest is in using deep learning techniques to analyze speech acoustics,
-      specifically in terms of prosody, phonology, and pragmatics of natural
-      speech. 
+      Ph.D. candidate specializing in the application of transformer-based large language models and multimodal machine
+      learning to educational tools and assessment. Expertise includes automated text evaluation, question generation, and
+      the analysis of natural speech prosody and pragmatics. Proficient in psychometric and advanced statistical methods,
+      including Multi-Level Modeling, Item Response Theory, and Structural Equation Modeling, to solve complex problems of
+      inter-rater reliability in both research and operational settings. 
 education:
     title: Education
     info:
@@ -98,6 +90,8 @@ education:
       - degree: BA in Psychology
         university: Charter Oak State College
         time: 2005 - 2009
+        details: |
+          Graduated cum laude (GPA: 3.78). Member, Alpha Sigma Lambda Honor Society.
 
 
 experiences:
@@ -128,10 +122,61 @@ experiences:
           Worked under Professor Scott Crossley, helping him with data analysis, transcription, 
           research, and essay rating according to analytic rubrics.
 
+teaching-experience:
+    title: Teaching Experience
+    info:
+      - role: Teaching Assistant, Graduate NLP Course
+        time: 2023 - Present
+        company: Vanderbilt University
+        details: |
+          Lead lecture sessions and design curriculum on tokenization, embeddings, transformer architectures,
+          and LLM fine-tuning. Mentor students on implementing and debugging Python-based NLP projects (SpaCy, Hugging Face).
+      - role: Grammar & Writing Instructor
+        time: 2020 - 2022
+        company: CMCH Middle School
+        details: |
+          Developed and delivered a functional grammar curriculum to improve students' analytical writing across genres.
+      - role: Upper Primary Teacher
+        time: 2015 - 2020
+        company: International Montessori School of Hong Kong
+        details: |
+          Led a Montessori classroom and delivered professional development courses on English grammar and EAL
+          instruction.
+      - role: Head of English
+        time: 2013 - 2015
+        company: Montessori School of Beijing
+        details: |
+          Coordinated the English department, developed a Communicative Language Teaching curriculum for ages 6-12,
+          and created a reading instruction program. Trained teachers as a certified "How Language Works" tutor.
+
 certifications:
-      title: Certifications and Awards
+      title: Highlights, Grants & Awards
       list:
-        - name: Grand Prize Winner, NAEP Math Automated Challenge
+        - name: NSF National I-Corps Grant
+          start: 2026
+          end: 2026
+          organization: NSF
+          credentialurl: 
+          credentialname: NSF
+          details: |
+            $50,000 grant for commercialization of academic tools
+        - name: Owen School of Business Chancellor's Launch Grant
+          start: 2026
+          end: 2026
+          organization: Owen School of Business
+          credentialurl: 
+          credentialname: Owen School
+          details: |
+            $23,889 grant for the iTELL startup
+        - name: NSF Mid-South Regional I-Corps Pitch Competition Award
+          start: 2025
+          end: 2025
+          organization: NSF
+          credentialurl: 
+          credentialname: NSF
+          details: |
+            $2,500 award for iTELL customer discovery
+        - name: Grand Prize Winner, NAEP Math Automated Scoring Challenge
           start: 2023
           end: 2023
           organization: NAEP
@@ -142,7 +187,7 @@ certifications:
             human scores of constructed responses provided by students explaining
             their reasoning during the NAEP Math assessment
         - name: Montessori Teaching Certificate
-          start: 2013
+          start: 2016
           end: 2016
           organization: Association Montessori Internationale
           credentialid: 
@@ -193,58 +238,113 @@ projects:
 publications:
     title: Publications
     intro: |
-      Published papers in journals and conference proceedings
+      22 peer-reviewed publications in journals and conference proceedings
 
     papers:
-      - title: Formative Feedback on Student-Authored Summaries in Intelligent Textbooks using Large Language Models.
-        link: "https://link.springer.com/article/10.1007/s40593-024-00395-0"
-        authors: Morris, W., Crossley, S., Holmes, L., Ou, Chaohua, Dascalu, M., & McNamara, D.
-        conference: "Journal of Artificial Intelligence in Education. 2024"
+      - title: Psychometric Analysis of LLM Differential Sensitivity to Word Predictability Using Explanatory MFRM.
+        link: "https://doi.org/10.1145/3782394"
+        authors: Morris, W., Holmes, L., & Crossley, S.
+        conference: "Proceedings of the Sixteenth International Conference on Learning Analytics & Knowledge (LAK '26), Bergen, Norway, April 27–30, 2026."
 
-      - title: Measuring second language proficiency using the English Language Learner Insight, Proficiency and Skills Evaluation (ELLIPSE) Corpus.
-        link: "https://www.jbe-platform.com/content/journals/10.1075/ijlcr.22026.cro"
+      - title: "The Use of Large Language Models in an Intelligent Text Framework."
+        link: "https://doi.org/10.1016/B978-0-12-840223-0.00004-8"
+        authors: Crossley, S. A., Choi, J. S., Holmes, L., Morris, W., Rus, V., & Lintean, M.
+        conference: "In Design Recommendations for Intelligent Tutoring Systems: Volume 12 — Generative Artificial Intelligence. 2026."
+
+      - title: "Assessing Fairness in Finetuned Scoring Models with Demographically Restricted Training Data."
+        link: "https://doi.org/10.1016/j.asw.2026.101032"
+        authors: Holmes, L., Morris, W., Crossley, S., & Choi, J. S.
+        conference: "Assessing Writing, 68, 101032. 2026."
+
+      - title: "Word Predictability as a Measure of Second Language Proficiency."
+        link: "https://doi.org/10.1111/lang.12650"
+        authors: Holmes, L., Morris, W., Crossley, S., & Choi, J. S.
+        conference: "Language Learning, 76(1). 2026."
+
+      - title: "AI Enhanced Intelligent Texts and Learning Gains."
+        link: "#"
+        authors: Crossley, S., Choi, J. S., Morris, W., Holmes, L., & Joyner, D.
+        conference: "Proceedings of the Sixth Workshop on Intelligent Textbooks (iTextbooks '25), Palermo, Italy, July 26, 2025."
+
+      - title: "Using Whisper Embeddings for Audio-Only Latent Token Classification of Classroom Management Practices."
+        link: "#"
+        authors: Morris, W., Vitale, J., & Arvelo, I.
+        conference: "Proceedings of the Artificial Intelligence in Measurement and Education Conference (AIME '25), Pittsburgh, USA, October 27–29, 2025."
+
+      - title: "Assessing Learning in an Intelligent Text Framework."
+        link: "#"
+        authors: Crossley, S., Morris, W., Choi, J. S., & Holmes, L.
+        conference: "Proceedings of the 18th International Conference on Educational Data Mining (EDM '25), Palermo, Italy, July 20–23, 2025."
+
+      - title: "Uncovering Differential Sensitivity Toward Linguistic Features of Cohesion in Large Language Models."
+        link: "#"
+        authors: Morris, W., Holmes, L., Choi, J. S., & Crossley, S.
+        conference: "Proceedings of the Twenty-Sixth International Conference on Artificial Intelligence in Education (AIED '25), Palermo, Italy, July 22–26, 2025."
+
+      - title: "Distinguishing Effective Writing Styles in the PERSUADE Corpus."
+        link: "https://doi.org/10.17239/jowr-2025.16.03.05"
+        authors: Morris, W., Holmes, L., Choi, J. S., & Crossley, S.
+        conference: "Journal of Writing Research, 16(3). 2025."
+
+      - title: "Focus Time and Writing Performance in an Intelligent Textbook."
+        link: "#"
+        authors: Choi, J. S., Morris, W., Holmes, L., & Crossley, S.
+        conference: "Selected Papers of the Educational Data Mining in Writing and Literacy Instruction Workshop, Atlanta, Georgia, USA, July 14, 2024."
+
+      - title: "Using Intelligent Texts in a Computer Science Classroom: Findings from an iTELL Deployment."
+        link: "#"
+        authors: Crossley, S., Choi, J. S., Morris, W., Holmes, L., & Gupta, V.
+        conference: "Proceedings of the Educational Data Mining in Computer Science Education Workshop (CSEDM '24), Atlanta, Georgia, USA, July 14, 2024."
+
+      - title: "Plagiarism Detection Using Keystroke Logs."
+        link: "https://educationaldatamining.org/edm2024/proceedings/2024.EDM-short-papers.47/"
+        authors: Crossley, S., Tian, Y., Choi, J. S., Holmes, L., & Morris, W.
+        conference: "Proceedings of the 17th International Conference on Educational Data Mining (EDM '24), Atlanta, Georgia, July 14–17, 2024."
+
+      - title: "Automatic Question Generation and Constructed Response Scoring in Intelligent Texts."
+        link: "#"
+        authors: Morris, W., Choi, J. S., Holmes, L., & Gupta, V.
+        conference: "Proceedings of the 17th International Conference on Educational Data Mining (EDM '24), Atlanta, Georgia, July 14–17, 2024."
+
+      - title: "Automated Scoring of Constructed Response Items in Math Assessment Using Large Language Models."
+        link: "https://doi.org/10.1007/s40593-023-00379-8"
+        authors: Morris, W., Holmes, L., Choi, J. S., & Crossley, S.
+        conference: "International Journal of Artificial Intelligence in Education, 34(4), 1551–1582. 2024."
+
+      - title: "Formative Feedback on Student-Authored Summaries in Intelligent Textbooks Using Large Language Models."
+        link: "https://doi.org/10.1007/s40593-023-00361-4"
+        authors: Morris, W., Crossley, S., Holmes, L., Ou, C., Dascalu, M., & McNamara, D.
+        conference: "International Journal of Artificial Intelligence in Education, 34(3), 1276–1310. 2024."
+
+      - title: "iScore: Visual Analytics for Interpreting How Language Models Automatically Score Summaries."
+        link: "https://doi.org/10.1145/3640543.3645150"
+        authors: Coscia, A., Holmes, L., Morris, W., Choi, J., Crossley, S., & Endert, A.
+        conference: "Proceedings of the 29th ACM Conference on Intelligent User Interfaces (IUI '24), Greenville, SC, USA, March 18–21, 2024."
+
+      - title: "PILLO: An Open-Source System for Personally Identifiable Information Labeling and Obfuscation."
+        link: "https://doi.org/10.1108/ILS-03-2023-0023"
+        authors: Holmes, L., Crossley, S., Morris, W., & Sikka, H.
+        conference: "Information and Learning Science, 124(9/10), 285–305. 2023."
+
+      - title: "Measuring Second Language Proficiency Using the English Language Learner Insight, Proficiency and Skills Evaluation (ELLIPSE) Corpus."
+        link: "https://doi.org/10.1075/ijlcr.22013.cro"
         authors: Crossley, S. A., Tian, Y., Baffour, P., Franklin, A., Kim, Y., Morris, W., Benner, B., Picou, A., & Boser, U.
-        conference: "International Journal of Learner Corpus Research. 2023"
-        
-      - title: Using Transformer Language Models to Validate Peer-Assigned Essay Scores in Massive Open Online Courses (MOOCs).
-        link: "https://dl.acm.org/doi/abs/10.1145/3576050.3576098?casa_token=HGbPPT8lBYEAAAAA:yDie5VNJNTYi6lsy4kS_t8FVZvn7FBJ09Jo4rtUBNUZtY0iqu5r_9NeWMJxabE-iJnRFDNjuxZoy"
-        authors: Morris, W., Crossley, S. A., Langdon, H., & Trumbore, A.
-        conference: Proceedings of the Thirteenth International Conference on Learning Analytics & Knowledge, Arlington Texas, March 13-17, 2023,
+        conference: "International Journal of Learner Corpus Research, 9(2), 248–271. 2023."
+
+      - title: "Deidentifying Student Writing with Rules and Transformers."
+        link: "https://link.springer.com/chapter/10.1007/978-3-031-36336-8_109"
+        authors: Holmes, L., Crossley, S., Morris, W., Sikka, H., & Trumbore, A.
+        conference: "Proceedings of the Twenty-Fourth International Conference on Artificial Intelligence in Education (AIED '23), Tokyo, Japan, July 3–6, 2023."
 
       - title: "Using Transformer Language Models to Provide Formative Feedback in Intelligent Textbooks."
         link: "https://link.springer.com/chapter/10.1007/978-3-031-36336-8_75"
-        authors: Morris, W., Crossley, S., Holmes, L., Ou, C., McNamara, D., Dascalu, M.
-        conference: "Proceedings of the Twenty-fourth International Conference on Artificial Intelligence in Education (AIED), Tokyo, Japan, July 3–6, 2023."
+        authors: Morris, W., Crossley, S., Holmes, L., Ou, C., McNamara, D., & Dascalu, M.
+        conference: "Proceedings of the Twenty-Fourth International Conference on Artificial Intelligence in Education (AIED '23), Tokyo, Japan, July 3–6, 2023."
 
-      - title: Deidentifying Student Writing with Rules and Transformers.
-        link: "https://link.springer.com/chapter/10.1007/978-3-031-36336-8_109"
-        authors: Holmes, L., Crossley, S., Morris, W., Sikka, H., & Trumbore, A.
-        conference: "Proceedings of the Twenty-fourth International Conference on Artificial Intelligence in Education (AIED), Tokyo, Japan, July 3–6, 2023."
-
-      - title: Formative Feedback on Student-Authored Summaries in Intelligent Textbooks using Large Language Models.
-        link: "https://link.springer.com/article/10.1007/s40593-024-00395-0"
-        authors: Morris, W., Crossley, S., Holmes, L., Ou, Chaohua, Dascalu, M., & McNamara, D.
-        conference: "Journal of Artificial Intelligence in Education. 2024"
-
-      - title: "iScore: Visual Analytics for Interpreting How Language Models Automatically Score Summaries."
-        link: "https://dl.acm.org/doi/abs/10.1145/3640543.3645142"
-        authors: Coscia, A., Holmes, L., Morris, W., Choi, J., Crossley, S., & Endert, A.
-        conference: "Proceedings of ACM Conference on Intelligent User Interfaces. 2024."
-      
-      - title: "The english language learner insight, proficiency and skills evaluation (ellipse) corpus"
-        link: "https://doi.org/10.1075/ijlcr.22026.cro"
-        authors: Crossley, S., Tian, Y., Baffour, P., Franklin, A., Kim, Y., Morris, W., Benner, M., Boser, U.
-        conference: "International Journal of Learner Corpus Research 9(2). 2023."
-      
-      - title: "Automated scoring of constructed response items in math assessment using large language models"
-        link: "https://ceur-ws.org/Vol-3840/L3MNGET24_paper2.pdf"
-        authors: Morris, W., Holmes, L., Choi, J.S., Crossley, S.
-        conference: "International Journal on Educational Data Mining. 2024"
-
-      - title: "Plagiarism Detection Using Keystroke Logs"
-        link: "https://educationaldatamining.org/edm2024/proceedings/2024.EDM-short-papers.47/"
-        authors: Crossley, S., Tian, Y., Choi, J.S., Crossley, S.
-        conference: "International Journal on Educational Data Mining. 2024"
+      - title: "Using Transformer Language Models to Validate Peer-Assigned Essay Scores in Massive Open Online Courses (MOOCs)."
+        link: "https://dl.acm.org/doi/abs/10.1145/3576050.3576098"
+        authors: Morris, W., Crossley, S. A., Langdon, H., & Trumbore, A.
+        conference: "Proceedings of the Thirteenth International Conference on Learning Analytics & Knowledge (LAK '23), Arlington, Texas, March 13–17, 2023."
 
 
 
@@ -253,17 +353,32 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python
+      - name: Python (PyTorch, TensorFlow, scikit-learn)
         level: 98%
 
-      - name: R
+      - name: R (Statistical Analysis & Visualization)
         level: 98%
 
-      - name: JavaScript
-        level: 60%
+      - name: Transformers & LLMs (Hugging Face)
+        level: 95%
+
+      - name: Machine Learning & NLP
+        level: 95%
+
+      - name: Multi-Level Modeling & Structural Equation Modeling
+        level: 90%
+
+      - name: Item Response Theory & Rasch Measurement
+        level: 90%
+
+      - name: JavaScript (Express.js, NextJS, REST APIs)
+        level: 70%
 
       - name: HTML5 & CSS
-        level: 30%
+        level: 60%
+
+      - name: Multimodal Models & Deep Learning
+        level: 85%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
