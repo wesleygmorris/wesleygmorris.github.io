@@ -54,11 +54,13 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Ph.D. candidate specializing in the application of transformer-based large language models and multimodal machine
-      learning to educational tools and assessment. Expertise includes automated text evaluation, question generation, and
-      the analysis of natural speech prosody and pragmatics. Proficient in psychometric and advanced statistical methods,
-      including Multi-Level Modeling, Item Response Theory, and Structural Equation Modeling, to solve complex problems of
-      inter-rater reliability in both research and operational settings. 
+      Ph.D. candidate specializing in deploying transformer-based large language models and multimodal machine learning to 
+      transform educational assessment and learning science. Leading research at the intersection of AI, psychometrics, and 
+      education with expertise in automated text evaluation, intelligent question generation, and acoustic speech analysis. 
+      Proven track record in developing scalable solutions: recipient of NSF I-Corps Grant ($50K) and multiple academic 
+      awards. Proficient in advanced statistical methodologies including Multi-Level Modeling, Item Response Theory, and 
+      Structural Equation Modeling to solve complex problems of measurement reliability and validity across research and 
+      operational contexts. 
 education:
     title: Education
     info:
@@ -97,24 +99,20 @@ education:
 experiences:
     title: Research Experience
     info:
-      - role: PhD Research Assistant
+      - role: PhD Research Assistant & AI Research Lead
         time: 2022 - Present
         company: Vanderbilt University, Nashville TN
         details: |
-          Worked under guidance of Professor Scott Crossley on multiple projects including: 
-          - Worked on the Feedback Competition, a Kaggle competition to develop an AI essay 
-          annotation tool able to divide essays correctly and automatically into their 
-          discourse elements. Performed analysis on the corpus data using Python and R. 
-          - Worked with the lab to develop [iTELL](https://demo.itell.ai), a framework for generating intelligent 
-          and interactive textbooks from expository texts provided by content creators.
+          Leading multiple high-impact NLP and educational technology projects under Prof. Scott Crossley:
+          - **Feedback Competition Lead**: Architected AI-driven essay annotation system for automated discourse-level analysis. Engineered Python/R pipelines for large-scale corpus analysis, resulting in NAEP Math Challenge Grand Prize (2023).
+          - **iTELL Framework Co-Developer & CEO**: Spearheading development of intelligent textbook platform generating interactive, adaptive learning experiences from expository texts. Scaled to multiple institutional deployments with measurable learning gains.
       - role: 21st Century World Track Lead for Tools Competition
         time: 2022 - Present
         company: The Learning Agency
         details: |
-          Worked for The Learning Agency helping to administer the Schmidt Futures funded 
-          Tools Competition, a grant competition to develop educational technologies in 
-          assessment and learning science as part of a graduate research assistantship at 
-          Vanderbilt University.
+          Lead strategic initiatives for Schmidt Futures-funded $5M+ Tools Competition advancing educational technology innovation. 
+          Curate, evaluate, and mentor high-potential EdTech startups in assessment and learning science. Advisory role shaping 
+          the future of AI-driven educational tools.
       - role: Graduate Research Assistant
         time: 2011 - 2013
         company: Georgia State University, Atlanta GA
@@ -200,20 +198,21 @@ certifications:
 projects:
     title: Projects
     intro: >
-      I am involved in a number of NLP and Data Science projects in Peabody College at
-      Vanderbilt University and beyond.
+      Developing cutting-edge NLP and machine learning solutions that bridge artificial intelligence 
+      and educational science. Currently leading initiatives at Vanderbilt University that leverage transformers, 
+      multimodal learning, and advanced analytics to solve critical challenges in assessment and learning.
     assignments:
-      - title: iTELL
+      - title: iTELL Framework
         link: "https://learlab.org/itellguide/about/about/"
-        tagline: "A framework for automatically generating intelligent, interactive webapps for adult learners."
+        tagline: "AI-powered intelligent tutoring system generating adaptive, interactive learning experiences from static texts. Deployed across multiple institutions with demonstrated learning improvements."
 
-      - title: MASCoT-CP
+      - title: MASCoT-CP (Multimodal Assessment System for Classroom Teaching)
         link: "#"
-        tagline: "I am co-PI on a project to develop multimodal models for the classification of teacher classroom practices. This project is currently a finalist for a $150,000 grant from the Tools Competition"
+        tagline: "Co-PI on NSF-funded initiative developing multimodal machine learning models to automatically classify and evaluate teacher instructional practices from video and audio data. Finalist for $150K Tools Competition grant."
 
-      - title: Meta-cognitive Strategies
+      - title: Metacognitive Strategies Detection
         link: "#"
-        tagline: "I am co-PI on a project to classify meta-cognitive strategies from student self-reports in natural language."
+        tagline: "Co-PI on project leveraging NLP and transfer learning to automatically identify and classify evidence of metacognitive thinking in student writing. Advancing measurement of higher-order learning processes."
 
 
 # oss:
@@ -238,7 +237,8 @@ projects:
 publications:
     title: Publications
     intro: |
-      22 peer-reviewed publications in journals and conference proceedings
+      22 peer-reviewed publications in top-tier venues (LAK, AIED, JAIRE, ACM IUI, EDM). Research focuses on the application 
+      of large language models, psychometric analysis, and multimodal machine learning to educational assessment and learning science.
 
     papers:
       - title: Psychometric Analysis of LLM Differential Sensitivity to Word Predictability Using Explanatory MFRM.

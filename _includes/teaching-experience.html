@@ -1,0 +1,36 @@
+{% assign teaching_experience = site.data.data.teaching-experience %}
+{% if teaching_experience %}
+<section class="section teaching-experience-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-chalkboard-user fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ teaching_experience.title }}
+  </h2>
+
+  {% for teaching in teaching_experience.info %}
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <h3 class="job-title">{{ teaching.role }}</h3>
+        <div class="time">{{ teaching.time }}</div>
+      </div><!--//upper-row-->
+
+      <div class="company">{{ teaching.company }}</div>
+
+    </div><!--//meta-->
+
+    {% if teaching.details %}
+    <div class="details">
+      {{ teaching.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
